@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p id="name" onclick='changeName()'>Akash</p>
+
+    <button onclick="hideText()" style="border: 2px solid blue; margin-top: 10px;">Hide the above text</button>
+    
+    <button onclick="showText()" style="border: 2px solid blue; margin-top: 10px;">Show the above text</button>
+
+    <script>
+        console.log(document.getElementById("name").innerHTML);
+
+        console.log(document);
+
+        function changeName() {
+            document.getElementById("name").innerHTML = 'Akash Ramasani';
+        }
+
+        function hideText() {
+            document.getElementById('name').style.display = 'none';
+        }
+
+        function showText() {
+            document.getElementById('name').style.display = 'block';
+        }
+    </script>
+    <script src="myScript.js"></script>
+</body>
+</html>
