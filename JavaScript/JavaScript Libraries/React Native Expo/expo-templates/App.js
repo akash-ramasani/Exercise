@@ -10,7 +10,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <mainStack.Navigator>
-        <mainStack.Screen name='Home' component={HomeScreen}/>
+        <mainStack.Screen name='Home' component={HomeScreen} options={{ headerShown: false }}/>
       </mainStack.Navigator>      
     </NavigationContainer>
   );
