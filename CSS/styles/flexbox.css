@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-item {
+    background-color: rgb(146, 193, 235);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}
