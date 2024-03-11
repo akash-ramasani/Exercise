@@ -93,3 +93,26 @@ Here are 20 basic coding questions focusing on lists, perfect for testing unders
 18. **📜 Dictionary to List of Keys and Values**: Write a function that converts a dictionary into two lists, one for keys and another for values.
 19. **🔄 Reverse Mapping**: Write a function that reverses the mapping of a dictionary, assuming all values are unique.
 20. **📂 Nested Dictionaries**: Write a function to access or modify a value within a nested dictionary.
+
+## 🛠️ FUNCTIONS
+
+1. **➕ Write a Function to Add Two Numbers**: Create a function that takes two integers as arguments and returns their sum.
+2. **✖️ Create a Multiplication Function**: Write a function that multiplies two numbers and returns the result.
+3. **➗ Implement a Division Function**: Develop a function that divides one number by another and handles division by zero.
+4. **🔢 Build a Function to Calculate Factorial**: Write a function that calculates the factorial of a given number.
+5. **🔍 Develop a Function to Check Prime Numbers**: Create a function that checks whether a number is prime.
+6. **🔗 Write a Function to Generate Fibonacci Series**: Develop a function that generates the first n numbers in the Fibonacci sequence.
+7. **🏆 Create a Function to Find the Maximum of Three Numbers**: Write a function that returns the maximum of three input numbers.
+8. **⚡ Implement a Power Function**: Write a function that calculates the power of a number (like `pow(base, exponent)`).
+9. **🌡️ Develop a Function to Convert Celsius to Fahrenheit**: Write a function that converts temperature from Celsius to Fahrenheit.
+10. **🔄 Write a Function to Check Palindrome Strings**: Create a function that checks if a given string is a palindrome.
+11. **🔤 Implement a Function to Count Vowels in a String**: Write a function that counts the number of vowels in a given string.
+12. **🔀 Write a Function to Check if a Number is Even or Odd**: Develop a function that checks if a number is even or odd.
+13. **📏 Create a Function to Find the Length of a String**: Write a function that returns the length of a given string without using built-in functions.
+14. **🔙 Develop a Function to Reverse a String**: Write a function that reverses a given string.
+15. **➕ Write a Function to Calculate the Sum of a List**: Create a function that calculates the sum of all elements in a list.
+16. **🔍 Implement a Function to Check if a List is Empty**: Write a function that checks if a list is empty or not.
+17. **🔗 Create a Function to Merge Two Lists**: Write a function that merges two lists into one.
+18. **🔎 Write a Function to Find the Smallest Number in a List**: Develop a function that finds the smallest number in a list.
+19. **🚫 Implement a Function to Remove Duplicates from a List**: Write a function that removes all duplicate elements from a list.
+20. **📝 Create a Function to Split a String into Words**: Write a function that splits a sentence into words and returns a list of words.
