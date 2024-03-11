@@ -71,3 +71,25 @@ Here are 20 basic coding questions focusing on lists, perfect for testing unders
 19. **🚫 Find Disjoint Sets**: Write a function that checks if two sets are disjoint.
 20. **⚙️ Update a Set**: Write a function that updates a set with elements from another set or iterable.
 
+## 📕 DICTIONARIES
+
+1. **📄 Create a Dictionary**: Write a function to create and return a dictionary from given keys and values.
+2. **🔑 Access Value**: Given a key, write a function to return the corresponding value from a dictionary.
+3. **➕ Add Key-Value Pair**: Write a function that adds a new key-value pair to a dictionary.
+4. **🔄 Update Value**: Write a function that updates the value of an existing key in a dictionary.
+5. **🗑 Delete Key-Value Pair**: Write a function that removes a key-value pair from a dictionary.
+6. **🔍 Check if Key Exists**: Write a function that checks whether a specific key is present in a dictionary.
+7. **🤝 Merge Two Dictionaries**: Write a function that merges two dictionaries into one.
+8. **🔑 Get All Keys**: Write a function that returns all the keys in a dictionary.
+9. **📊 Get All Values**: Write a function that returns all the values in a dictionary.
+10. **📜 Key-Value Pairs to List**: Write a function that converts a dictionary’s key-value pairs into a list of tuples.
+11. **➕ Sum Values**: Given a dictionary of integers, write a function that sums up the values.
+12. **🏆 Maximum and Minimum Value**: Write functions to find the maximum and minimum value in a dictionary.
+13. **🔍 Filter Dictionary**: Write a function that filters a dictionary based on a condition applied to its values.
+14. **🔧 Dictionary from Two Lists**: Write a function that creates a dictionary using one list for keys and another for values.
+15. **🔢 Sort by Key**: Write a function that returns a dictionary sorted by its keys.
+16. **📊 Sort by Value**: Write a function that returns a dictionary sorted by its values.
+17. **🔢 Length of Dictionary**: Write a function that returns the number of key-value pairs in a dictionary.
+18. **📜 Dictionary to List of Keys and Values**: Write a function that converts a dictionary into two lists, one for keys and another for values.
+19. **🔄 Reverse Mapping**: Write a function that reverses the mapping of a dictionary, assuming all values are unique.
+20. **📂 Nested Dictionaries**: Write a function to access or modify a value within a nested dictionary.
