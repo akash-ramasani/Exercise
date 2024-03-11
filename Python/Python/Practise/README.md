@@ -47,3 +47,27 @@ Here are 20 basic coding questions focusing on lists, perfect for testing unders
 18. **📈 Sort a Tuple**: Write a function to sort a tuple and return the sorted version.
 19. **📝 Tuple with Mixed Types**: Write a function that creates a tuple with different data types and returns it.
 20. **⚖️ Compare Tuples**: Write a function that compares two tuples and returns whether they are the same or not.
+
+## 🧱 SETS
+
+1. **🔍 Check for Existence**: Write a function that checks if an element is present in a set.
+2. **➕ Add an Element**: Write a function that adds an element to a set.
+3. **➖ Remove an Element**: Write a function that removes a specific element from a set.
+4. **🤝 Find the Intersection**: Write a function that finds the intersection of two sets.
+5. **⭕ Find the Union**: Write a function that finds the union of two sets.
+6. **🔪 Find the Difference**: Write a function that finds the difference between two sets.
+7. **↔️ Find the Symmetric Difference**: Write a function that finds the symmetric difference between two sets.
+8. **🔍 Check if Subset**: Write a function that checks if one set is a subset of another.
+9. **🔝 Check if Superset**: Write a function that checks if one set is a superset of another.
+10. **🧹 Clear a Set**: Write a function that removes all elements from a set.
+11. **📑 Copy a Set**: Write a function that creates a copy of a set.
+12. **🔢 Count Elements**: Write a function that counts the number of elements in a set.
+13. **🤔 Compare Sets**: Write a function that checks if two sets are equal.
+14. **🔄 Iterate Over a Set**: Write a function that iterates over the elements of a set.
+15. **🏆 Find Maximum and Minimum**: Write a function that finds the maximum and minimum elements in a set.
+16. **🔄 Convert List to Set**: Write a function that converts a list to a set.
+17. **🔄 Convert Set to List**: Write a function that converts a set to a list.
+18. **🔍 Filter Elements**: Write a function that filters elements in a set based on a given condition.
+19. **🚫 Find Disjoint Sets**: Write a function that checks if two sets are disjoint.
+20. **⚙️ Update a Set**: Write a function that updates a set with elements from another set or iterable.
+
