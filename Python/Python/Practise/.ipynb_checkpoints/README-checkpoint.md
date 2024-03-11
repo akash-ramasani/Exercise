@@ -1,4 +1,4 @@
-# 📝 Basic Coding Questions on Lists
+# 📝 Python Basic Coding Questions
 
 Here are 20 basic coding questions focusing on lists, perfect for testing understanding and proficiency in manipulating list data structures in programming:
 
