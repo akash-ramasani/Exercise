@@ -24,3 +24,26 @@ Here are 20 basic coding questions focusing on lists, perfect for testing unders
 18. **📏 Find Elements Greater Than X**: Write a function that returns all the elements in a list greater than a given number.
 19. **📐 Flatten a Nested List**: Write a function that flattens a nested list into a single list.
 20. **🔍 Check if List is Sorted**: Write a function that checks if a list is sorted in ascending order.
+
+## 🧩 TUPLES
+
+1. **🔨 Create a Tuple**: Write a function to create and return a tuple with specified elements.
+2. **👁️ Access Tuple Elements**: Write a function to access and return the nth element of a tuple.
+3. **📏 Tuple Length**: Write a function that returns the number of elements in a tuple.
+4. **➕ Tuple Concatenation**: Write a function that concatenates two tuples and returns the result.
+5. **🔁 Tuple Repetition**: Write a function that repeats a tuple n times and returns the new tuple.
+6. **🔍 Check Element Existence**: Write a function to check if a given element exists in a tuple.
+7. **📊 Count Element Occurrences**: Write a function to count the number of times an element appears in a tuple.
+8. **🏆 Find Max and Min Elements**: Write functions to find and return the maximum and minimum elements in a tuple.
+9. **🔄 Convert List to Tuple**: Write a function to convert a list into a tuple.
+10. **🔪 Slice a Tuple**: Write a function to return a slice of a tuple between specified start and end indices.
+11. **⏪ Reverse a Tuple**: Write a function to reverse the elements of a tuple.
+12. **🔄 Convert Tuple to List**: Write a function to convert a tuple into a list.
+13. **📦 Nested Tuples**: Write a function to access an element from a nested tuple.
+14. **🔢 Index of an Element**: Write a function to find the index of a specific element in a tuple.
+15. **✏️ Tuple to String**: Write a function to convert a tuple of characters into a string.
+16. **🛡️ Immutable Nature of Tuples**: Write an example code to demonstrate that tuples are immutable.
+17. **📤 Tuple Unpacking**: Write a function to unpack tuple elements into separate variables.
+18. **📈 Sort a Tuple**: Write a function to sort a tuple and return the sorted version.
+19. **📝 Tuple with Mixed Types**: Write a function that creates a tuple with different data types and returns it.
+20. **⚖️ Compare Tuples**: Write a function that compares two tuples and returns whether they are the same or not.
