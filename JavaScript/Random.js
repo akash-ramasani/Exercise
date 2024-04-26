@@ -1,0 +1,1 @@
+document.getElementById("temp").innerHTML = [screen.height, screen.width];

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Objects | JavaScript Tutorial</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        table {
+            width: 50%;
+            margin: 10px;
+        }
+        table, th, td {
+            border: 1px solid #101010;
+            border-collapse: collapse;
+        }
+        th, td {
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        tr:hover {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <p id="temp"></p>
+    <table>
+        <tr style="background-color: rgb(185, 184, 184); color: black;">
+            <th>Type</th>
+            <th>Data</th>
+            <th>Usage</th>
+        </tr>
+        <tr>
+            <td>Complete Date</td>
+            <td id="completeDate"></td>
+            <td><code style="color: chocolate;">date</code></td>
+        </tr>
+        <tr>
+            <td>Day</td>
+            <td id="day"></td>
+            <td><code style="color: chocolate;">date.getDate()</code></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td id="date"></td>
+            <td><code style="color: chocolate;">date.getDate()</code></td>
+        </tr>
+        <tr>
+            <td>Month</td>
+            <td id="month"></td>
+            <td><code style="color: chocolate;">date.getMonth()</code></td>
+        </tr>
+        <tr>
+            <td>Full Year</td>
+            <td id="fullYear"></td>
+            <td><code style="color: chocolate;">date.getFullYear()</code></td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td id="time"></td>
+            <td><code style="color: chocolate;">date.getTime()</code></td>
+        </tr>
+        <tr>
+            <td>Hours</td>
+            <td id="hours"></td>
+            <td><code style="color: chocolate;">date.getHours()</code></td>
+        </tr>
+        <tr>
+            <td>Minutes</td>
+            <td id="minutes"></td>
+            <td><code style="color: chocolate;">date.getMinutes()</code></td>
+        </tr>
+        <tr>
+            <td>Seconds</td>
+            <td id="seconds"></td>
+            <td><code style="color: chocolate;">date.getSeconds()</code></td>
+        </tr>
+        <tr>
+            <td>Time String</td>
+            <td id="timeString"></td>
+            <td><code style="color: chocolate;">date.toTimeString()</code></td>
+        </tr>
+        <tr>
+            <td>Date String</td>
+            <td id="dateString"></td>
+            <td><code style="color: chocolate;">date.toDateString()</code></td>
+        </tr>
+        <tr>
+            <td>UTC String</td>
+            <td id="utcString"></td>
+            <td><code style="color: chocolate;">date.toUTCString()</code></td>
+        </tr>
+        <tr>
+            <td>ISO String</td>
+            <td id="isoString"></td>
+            <td><code style="color: chocolate;">date.toISOString()</code></td>
+        </tr>
+    </table>
+    <script src="./Date.js"></script>
+</body>
+</html>
