@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box | HTML & CSS Tutorial</title>
+    <style>
+        * {
+            padding: 5px;
+            margin: 0px;
+        }
+        body {
+            background-color: aliceblue;
+            color: #101010;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            padding: 10px;
+            font-family: 'Georgia';
+            text-transform: capitalize;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: blue underline wavy;
+        }
+        .flex-container {
+            display: flex;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            border: 1px dotted grey;
+            padding: 20px 0px;
+        }
+        .flex-container > div {
+            padding: 20px;
+            margin: 10px;
+            background-color: cornflowerblue;
+            border-radius: 8px;
+            box-shadow: 6px 8px rgb(197, 197, 197);
+            font-family: cursive;
+            font-weight: bold;
+        }
+        .flex-container-row {
+            flex-flow: row wrap;
+        }
+        .flex-container-row-reverse {
+            flex-flow: row-reverse wrap;
+        }
+        .flex-container-column {
+            width: 25%;
+            flex-flow: column wrap;
+        }
+        .flex-container-column-reverse {
+            width: 25%;
+            flex-flow: column-reverse wrap;
+        }
+        .justify-content-flex-start {
+            justify-content: flex-start;
+        }
+        .justify-content-center {
+            justify-content: center;
+        }
+        .justify-content-flex-end {
+            justify-content: flex-end;
+        }
+        .justify-content-space-around {
+            justify-content: space-around;
+        }
+        .justify-content-space-between {
+            justify-content: space-between;
+        }
+        .justify-content-space-evenly {
+            justify-content: space-evenly;
+        }
+        .align-items-flex-start {
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h2>flex-direction</h2>
+    <h3>row</h3>
+    <div class="flex-container flex-container-row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>row-revere</h3>
+    <div class="flex-container flex-container-row-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>column</h3>
+    <div class="flex-container flex-container-column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>column-reverse</h3>
+    <div class="flex-container flex-container-column-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h2>justify-content</h2>
+    <h3>flex-start</h3>
+    <div class="flex-container flex-container-row justify-content-flex-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>center</h3>
+    <div class="flex-container flex-container-row justify-content-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>flex-end</h3>
+    <div class="flex-container flex-container-row justify-content-flex-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>space-evenly</h3>
+    <div class="flex-container flex-container-row justify-content-space-evenly">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>space-around</h3>
+    <div class="flex-container flex-container-row justify-content-space-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>space-between</h3>
+    <div class="flex-container flex-container-row justify-content-space-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h2>flex-items</h2>
+    <h3>flex-start</h3>
+    <div class="flex-container flex-container-row align-items-flex-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>
